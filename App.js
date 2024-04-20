@@ -28,7 +28,7 @@ export default function TasbeehApp() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tasbeeh Counter</Text>
+      <Text style={styles.title}>Tasbeeh Counter with Button Components</Text>
       <PanGestureHandler onGestureEvent={handleGesture}>
         <View style={styles.counterContainer}>
           <Text style={styles.count}>{count}</Text>
